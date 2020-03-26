@@ -174,6 +174,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        // 阿里云短信服务供应商
+        App\Providers\EasySmsServiceProvider::class,
 
     ],
 
